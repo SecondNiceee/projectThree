@@ -26,13 +26,13 @@ const MealsByCategory = () => {
         dispatch(getMealsByCatetogy({ categoryName: category }));
       }
     }
-  }, [mealsByCategoryStatus]);
+  }, [mealsByCategoryStatus, category, dispatch]);
 
   useEffect(() => {
     return () => {
       dispatch(changeStatus({ status: "idle", whichStatus: "mealsByCategoryStatus" }));
     };
-  }, []);
+  }, [dispatch]);
 
   if (!category){
     return <Error message="Не удалось найти блюда" />

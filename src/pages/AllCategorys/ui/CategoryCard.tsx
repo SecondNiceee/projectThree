@@ -10,7 +10,7 @@ const CategoryCard:FC<ICategoryCard> = ({category}) => {
     const navigate = useNavigate();
     const onClick = useCallback(() => {
         navigate(`/meals/${category.strCategory}`);
-    } , [] )
+    } , [category.strCategory, navigate] )
     return (
         <Card buttonText="Check meals" buttonHandler={onClick} imgSrc={category.strCategoryThumb} title={category.strCategory} />
     );

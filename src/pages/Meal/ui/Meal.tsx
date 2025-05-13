@@ -28,7 +28,7 @@ const Meal = () => {
         return () => {
             dispatch(changeStatus({status : "idle", whichStatus : "mealByIdStatus"}))
         }
-    }, [] )
+    }, [dispatch, id] )
 
     console.log(mealByIdStatus);
 

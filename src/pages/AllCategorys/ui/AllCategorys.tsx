@@ -21,7 +21,7 @@ const AllCategorys = () => {
     if (categoriesStatus === "idle") {
       dispatch(getAllCategories());
     }
-  }, [categoriesStatus]);
+  }, [categoriesStatus, dispatch]);
 
   return (
     <div className="text-3xl container flex flex-col">
