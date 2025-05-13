@@ -24,7 +24,7 @@ export default {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
+    function ({ addUtilities, addComponents }) {
       addUtilities({
         ".centered": {
           left: "50%",
@@ -36,6 +36,7 @@ export default {
           boxShadow : "0px 0px 29px 0px rgba(34, 60, 80, 0.2)"
         } 
       });
+      
     },
   ],
 };
