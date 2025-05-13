@@ -7,7 +7,7 @@ const InformationBlock = () => {
     <div className="flex flex-col items-center my-3 gap-3 container">
       <div className="p-3 rounded-2xl">
         <p className="font-sans text-xl sm:text-2xl text-center">
-          На это странице данные кэшируеются. Если вы выйдите на страничку
+          На этой странице данные кэшируеются. Если вы выйдите на страничку
           рецептов и нажмете на то блюдо, которое уже открывали, запрос на
           сервер сделан еще раз не будет. Данные подтянуться с кэша.
         </p>
