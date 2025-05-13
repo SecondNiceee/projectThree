@@ -31,7 +31,7 @@ const Header = () => {
             className="text-xl font-bold text-white font-sans"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/SecondNiceee/vertkaNum2"
+            href="https://github.com/SecondNiceee/projectThree"
           >
             Repository
           </a>

@@ -6,8 +6,8 @@ const Footer = () => {
             © {new Date().getFullYear()}
         </p>
         <div className="rounded-lg border-2 border-solid border-white p-2">
-          <a rel={"noopener noreferre"} target="_blank" className="text-xl font-bold text-white font-sans" href="">
-            Nick
+          <a rel={"noopener noreferre"} target="_blank" className="text-xl font-bold text-white font-sans" href="https://github.com/SecondNiceee/projectThree">
+            Repository
           </a>
         </div>
       </div>
