@@ -7,9 +7,7 @@ import { type TShortMeal } from "../model/types/TShortMeal.type";
 class Meal{
     baseUrl:string = `${import.meta.env.VITE_API_URL}/${import.meta.env.VITE_API_KEY}`;
     async getAllCategories(){
-        console.log("Start")
         const categorys = await axios.get<{categories : TCategory[]}>(this.baseUrl + '/categories.php');
-        console.log(categorys);
         return categorys.data.categories;
         
     }

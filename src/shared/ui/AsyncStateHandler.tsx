@@ -13,7 +13,6 @@ export const AsyncStateHandler: FC<IAsyncStateHandler> = ({
   children,
   errMeassage
 }) => {
-  console.log(asyncState)
   switch (asyncState) { 
     case "pending":
       return <Loader />;

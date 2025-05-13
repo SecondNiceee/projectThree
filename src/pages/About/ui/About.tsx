@@ -11,7 +11,7 @@ const About = () => {
             
                     </p>
                     <p className="font-sans text-sm sm:text-lg md:text-xl text-center">      
-                        Используются : React, Ts, ReduxToolkit, React touter dom   
+                        Используются : React, Ts, ReduxToolkit, React router dom   
                     </p>
                 </div>
                 

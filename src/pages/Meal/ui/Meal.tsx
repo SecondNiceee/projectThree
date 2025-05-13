@@ -30,7 +30,6 @@ const Meal = () => {
         }
     }, [dispatch, id] )
 
-    console.log(mealByIdStatus);
 
     if (!id){
         return <Error message='Блюдо не найдено.' />

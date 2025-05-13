@@ -13,9 +13,6 @@ const AllCategorys = () => {
   const { categorys, categoriesStatus } = useAppSelector(
     (state) => state.mealSlice
   );
-  
-  console.log(categorys);
-  console.log(categoriesStatus)
 
   useEffect(() => {
     if (categoriesStatus === "idle") {
